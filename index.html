@@ -1,1 +1,241 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Andrus Asumets</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta property="og:title" content="Andrus Asumets" />
+<meta property="og:image" content="/static/img/share3.png" />
+<link rel="Shortcut icon" href="/static/img/favicon.png" />
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "eab61ad73ab3448db261bb2f2cc49828"}'></script>
+<style type="text/css">
+		@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+
+		*,
+		*:before,
+		*:after {
+			box-sizing: border-box;
+		}
+
+		::selection {
+			background-color: black;
+			color: white;
+		}
+
+		.center {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.hand {
+			cursor: pointer;
+			cursor: hand;
+		}
+
+		.unselectable {
+			user-select: none;
+		}
+
+		.divide-8 {
+			margin-top: 8px;
+		}
+
+		.divide-16 {
+			margin-top: 16px;
+		}
+
+		html, body {
+			margin: 0;
+			padding: 0;
+			-webkit-font-smoothing: antialiased;
+			-webkit-overflow-scrolling: touch;
+			max-width: 100vw;
+			overflow-x: hidden;
+		}
+
+		body {
+			width: 100vw;
+			min-height: 100vh;
+		}
+
+		body, a {
+			color: rgba(255, 255, 255, 0.95);
+			font-family: 'Karla', sans-serif;
+			font-size: 13px;
+			line-height: 1.5em;
+		}
+
+		.animation {
+			position: fixed;
+			width: 100vw;
+			height: 100vh;
+			left: 0;
+			top: 0;
+			pointer-events: none;
+			z-index: 1;
+		}
+
+		.content {
+			flex-direction: column;
+			padding: 16px;
+		}
+
+		.content-inner {
+			max-width: 720px;
+		}
+
+		.image {
+			position: relative;
+			margin: 96px auto 32px auto;
+			width: 96px;
+			height: 96px;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-image: url('/static/img/profile2.jpg');
+			border-radius: 128px;
+			z-index: 2;
+		}
+
+		.elements {
+			position: fixed;
+			top: 16px;
+			right: 16px;
+			display: flex;
+			padding: 1vw;
+		}
+
+		.element > a {
+			padding: 8px;
+		}
+
+		.elements > .element:first-child > a {
+			margin-right: 16px;
+		}
+
+		.content-inner {
+			padding: 16px;
+		}
+
+		.credit {
+			margin: 32px;
+		}
+
+		.credit {
+			position: fixed;
+			bottom: 0;
+			right: 0;
+		}
+
+		.text {
+			background-color: rgba(255, 255, 255, 1);
+			color: black;
+			transition: all 0.25s;
+		}
+
+		.strikethrough {
+			text-decoration: line-through;
+		}
+
+		a {
+			background-color: white;
+			color: black;
+			transition: all 0.25s;
+		}
+
+		a:hover {
+			background-color: black;
+			color: white;
+		}
+
+		.element > a
+		.credit > a {
+			font-size: 12px;
+		}
+
+		ul {
+			margin: 0 auto;
+			list-style-type: none;
+		}
+
+		@media (max-width: 40em) {
+			body, a, .element > a {
+				font-size: 10px;
+			}
+
+			.content {
+				opacity: 0.9;
+			}
+
+			.elements {
+				top: initial;
+				position: static;
+				margin-top: 16px;
+			}
+
+			.image {
+				margin: auto;
+			}
+		}
+  </style>
+</head>
+<body>
+<div class="animation"></div>
+<div class="image"></div>
+<div class="content">
+<div class="content center">
+<div class="content-inner text">
+Hello, World!
+<div class="divide-16"></div>
+I am a creative engineer who mostly works on:
+<div class="divide-8"></div>
+<ul>
+<li class="text">&#8226; Full-stack prototyping</li>
+<li class="text">&#8226; Engineering pixel-perfect UI-s</li>
+</ul>
+<div class="divide-16">
+</div>Currently I am:
+<ul>
+<li class="text">
+&#8226; Doing freelance
+</li>
+</ul>
+<div class="divide-16">
+</div>Previously I have:
+<ul>
+<li class="text">&#8226; Developed for <a class="hand" href="https://veriff.me/" target="_blank">Veriff</a></li>
+<li class="text">&#8226; Developed for <a class="hand" href="https://planetos.com/" target="_blank">Planet OS</a></li>
+<li class="text">&#8226; Designed for <a class="hand" href="http://www.avatudloengud.ee/" target="_blank">the Estonian Academy of
+Arts</a></li>
+<li class="text">&#8226; Developed for <a class="hand" href="http://opennex.planetos.com/" target="_blank">NASA</a></li>
+</ul>
+<div class="divide-16">
+</div>On my spare time I:
+<ul>
+<li class="text">&#8226; Travel</li>x
+<li class="text">&#8226; Read</li>
+<li class="text">&#8226; <a class="text hand" href="https://www.youtube.com/watch?v=q2PY5eDF1HU" target="_blank">Visualize
+music</a></li>
+</ul>
+<br />
+<br />
+<br />
+Best,
+<br />
+Andrus Asumets
+<br />
+<a href="mailto:andrus@asumets.ee">(andrus@asumets.ee)</a>
+</div>
+<div class="elements center">
+<div class="element">
+<a class="hand unselectable" href="https://www.linkedin.com/in/andrusasumets" target="_blank">LinkedIn</a>
+</div>
+<div class="element">
+<a class="hand unselectable" href="https://github.com/andrusasumets" target="_blank">GitHub</a>
+</div>
+</div>
+</div>
+</div>
+</html>
+
