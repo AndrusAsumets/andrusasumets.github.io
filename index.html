@@ -39,11 +39,18 @@
 		}
 
 		.divide-8 {
+			margin-left: 8px;
 			margin-top: 8px;
 		}
 
 		.divide-16 {
+			margin-left: 16px;
 			margin-top: 16px;
+		}
+
+		.horizontal {
+			display: flex;
+			justify-content: start;
 		}
 
 		html, body {
@@ -225,7 +232,13 @@ Best,
 <br />
 Andrus Asumets
 <br />
-<a href="mailto:andrus@asumets.ee">(andrus@asumets.ee)</a>
+	<div class="horizontal">
+		(<a href="mailto:andrus@asumets.ee">andrus@asumets.ee</a>
+		<div class="divide-8"></div>
+		-
+		<div class="divide-8"></div>
+		<a href="/andrus@asumets.ee-gpg-public-key.asc" download>GPG key</a>)
+	</div>
 </div>
 <div class="elements center">
 <div class="element">
